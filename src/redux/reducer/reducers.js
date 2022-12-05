@@ -1,7 +1,7 @@
 import { SET_LANDING_PAGE,SET_BUSINESS_CATEGORY } from "../action/actionTypes";
 
 const initialState = {
-  ladndingPageStatus: false,
+  ladndingPageStatus: true,
   businessCategory : ['Wedding','Cattering','Photography','Decoration','Sound & Light','Makeup Artist','Vanue Management','Fooding','Loadiging']
 };
 
