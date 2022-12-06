@@ -13,9 +13,9 @@ export const Main = () => {
         return (
           <div key={key} className="bg1">
             <h2>
-              <i className="fas fa-battery-three-quarters"></i>
+              {/* <i className="fas fa-battery-three-quarters"></i> */}
             </h2>
-            <p>{category}</p>
+            <p className="threeD">{category}</p>
           </div>
         );
       })}

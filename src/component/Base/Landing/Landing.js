@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Landing.css";
-import Logo from "../../../asset/logo.jpg";
+import Logo from "../../../asset/logo.png";
 import { setLandingStatus } from "../../../redux/action/action";
 import { useDispatch } from "react-redux";
 
@@ -18,13 +18,8 @@ export const Landing = () => {
               <div
                 className="main_home text-center colorstext wow fadeInUp"
                 data-wow-duration="700ms">
-                <h1>We Are CreativeDigital Agency</h1>
-                <p>
-                  lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                  
+                <h1><img className="mainLogo" src={Logo}></img></h1>
                 <button
                   onClick={exploreBtn}
                   className="btn btn-default waves-effect waves-purple button-30">
