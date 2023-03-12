@@ -15,7 +15,7 @@ function App() {
   return (
     // <div className="App">{landingPageStatus ? <Landing /> : <Main />}</div>
     <div>
-      <Event src  ={src}/>
+      {/* <Event src  ={src}/> */}
     </div>
 
   );
